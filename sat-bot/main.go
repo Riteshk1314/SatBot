@@ -152,7 +152,7 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 				"content": groqPrompt,
 			},
 		},
-		"model":       "llama-3.1-8b-instant",
+		"model":       "moonshotai/kimi-k2-instruct-0905",
 		"temperature": 0.7,
 		"max_tokens":  500,
 	}
