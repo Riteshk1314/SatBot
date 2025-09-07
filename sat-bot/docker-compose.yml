@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  sat-bot:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - PORT=8080
+    volumes:
+      - ./context.txt:/root/context.txt
+      - ./.env:/root/.env
+    restart: unless-stopped

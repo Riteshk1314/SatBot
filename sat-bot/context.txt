@@ -1,0 +1,289 @@
+SATURNALIA ’50 – TECHNICAL EVENTS
+
+------------------------------------------------------------
+Event: Mirage
+Time: 2 Hours
+Venue: LP108, LP109, LP110
+Expected Participation: 2000+
+Judging Criteria: Evaluated based on challenges solved
+Description: Mirage is an interactive AR treasure hunt that turns the campus into a tech-powered trail of clues and challenges. Conducted for the past two years, it holds the record for highest footfall among Saturnalia’s technical events.
+Impact:
+- Theme Relevance: Fuses technology and exploration, aligning with the spirit of a techno-cultural fest.
+- On Students: Encourages collaboration, quick thinking, and hands-on tech exposure.
+- On NIRF: Enhances technical index and perception through innovation-driven student engagement.
+
+------------------------------------------------------------
+Event: Sat-Hack
+Time: 36 Hours
+Venue: AS-1, AS-2, CSED Ground Floor
+Expected Participation: 500+
+Judging Criteria: Evaluation by CSED faculty & Industry experts
+Description: Classic hackathon to ideate, build, and pitch working prototypes focusing on innovation, collaboration, and product-market fit.
+Impact:
+- Theme Relevance: Showcases innovation and logical problem-solving.
+- On Students: Promotes technical brilliance and expert mentorship.
+- On NIRF: Strengthens innovation and industry engagement metrics.
+
+------------------------------------------------------------
+Event: Syrinx
+Time: 3-4 Hours
+Venue: Online
+Expected Participation: 500+
+Judging Criteria: Number of quests/puzzles solved
+Description: An exhilarating online 2D treasure hunt inspired by TIET’s landmarks, filled with hidden quests and puzzles.
+Impact:
+- Theme Relevance: Represents game development and cybersecurity spirit.
+- On Students: Improves logical thinking and decision-making.
+- On NIRF: Holistic development showcase.
+
+------------------------------------------------------------
+Event: RoboWars
+Time: 36 Hours
+Venue: AS-1, AS-2, CSED Ground Floor
+Expected Participation: 500+
+Judging Criteria: Evaluation by faculty & industry experts
+Description: High-octane robot battles in a dynamic arena, testing design, build, and piloting skills.
+Impact:
+- Theme Relevance: Embodies engineering creativity.
+- On Students: Enhances mechanical design and control skills.
+- On NIRF: Strengthens robotics and interdisciplinary learning.
+
+------------------------------------------------------------
+Event: ElectroSprint
+Time: 2-5 Hours
+Venue: Labs
+Expected Participation: 200+
+Judging Criteria: Evaluation by ECED faculty & industry experts
+Description: A relay race around circuit design and electronics, emphasizing speed and accuracy.
+Impact:
+- Theme Relevance: Practical electronics application.
+- On Students: Enhances real-world circuit mastery.
+- On NIRF: Highlights experiential learning.
+
+------------------------------------------------------------
+Event: Wolf of Dev Street
+Time: 4 Hours
+Venue: C-Hall/TAN Auditorium
+Expected Participation: 200
+Judging Criteria: Evaluation by experts
+Description: Coding showdown mimicking recruitment via ATS resume scoring, team bidding, and machine coding.
+Impact:
+- Theme Relevance: Simulates real-world hiring.
+- On Students: Improves resume and coding interview readiness.
+- On NIRF: Encourages holistic development.
+
+------------------------------------------------------------
+Event: Line Following Robot
+Time: 2 Hours
+Venue: CSED Labs
+Expected Participation: 20+
+Judging Criteria: Fastest, most accurate robot wins
+Description: Robots autonomously follow a track balancing speed, precision, and control.
+Impact:
+- Theme Relevance: Robotics and control integration.
+- On Students: Hardware-software integration experience.
+- On NIRF: Enhances technical index.
+
+------------------------------------------------------------
+Event: HackTheBox
+Time: 3 Hours
+Venue: Activity Space
+Expected Participation: 200+
+Judging Criteria: Leaderboard
+Description: Ethical-hacking challenge to exploit vulnerable virtual machines and gain root access.
+Impact:
+- Theme Relevance: Cybersecurity focus.
+- On Students: Builds hands-on ethical hacking skills.
+- On NIRF: Adds depth to advanced skills-based learning.
+
+------------------------------------------------------------
+Event: Kaggle Wars
+Time: 24 Hours
+Venue: Online
+Expected Participation: 300+
+Judging Criteria: Novelty, Accuracy, Explainability
+Description: Applied ML challenge to solve real-world dataset problems.
+Impact:
+- Theme Relevance: Machine learning aligned with modern trends.
+- On Students: Builds practical ML workflow and teamwork.
+- On NIRF: Boosts research visibility and innovation index.
+
+------------------------------------------------------------
+Event: Maze Solver
+Time: 3 Hours
+Venue: B-Block Lawns
+Expected Participation: 30
+Judging Criteria: Accuracy + Time
+Description: Robots or algorithms must autonomously navigate a maze.
+Impact:
+- Theme Relevance: AI & robotics navigation.
+- On Students: Improves algorithmic and automation skills.
+- On NIRF: Supports research and automation focus.
+
+------------------------------------------------------------
+Event: MathChrono
+Time: 3 Hours
+Venue: LP
+Expected Participation: 200+
+Judging Criteria: Leaderboard
+Description: Puzzle adventure fixing broken math history theorems in sequence.
+Impact:
+- Theme Relevance: Combines mathematics and storytelling.
+- On Students: Develops logical reasoning through interactive play.
+- On NIRF: Innovative interdisciplinary approach.
+
+------------------------------------------------------------
+Event: Feature Creep Chaos
+Time: 3 Hours
+Venue: TAN
+Expected Participation: 200+
+Judging Criteria: Implementation, Creativity, Teamwork
+Description: Evolving calculator with random audience-driven features added on-the-fly.
+Impact:
+- Theme Relevance: Simulates scope creep in software.
+- On Students: Builds adaptability and agile team skills.
+- On NIRF: Strengthens experiential software learning.
+
+------------------------------------------------------------
+Event: ML Model Showdown
+Time: 3 Hours
+Venue: LP, LT or Activity Space
+Expected Participation: 200+
+Judging Criteria: CSED faculty & industry evaluation
+Description: ML contest balancing accuracy, innovation, and runtime.
+Impact:
+- Theme Relevance: Aligned with industry data science workflows.
+- On Students: Builds ML and teamwork skills.
+- On NIRF: Highlights cutting-edge readiness.
+
+------------------------------------------------------------
+Event: VibeFix
+Time: 3 Hours
+Venue: AS-1, AS-2
+Expected Participation: 200+
+Judging Criteria: First to fix sabotaged prompt
+Description: Debug AI-generated code sabotaged by hidden prompts.
+Impact:
+- Theme Relevance: Engages with AI coding trends.
+- On Students: Teaches critical thinking beyond AI shortcuts.
+- On NIRF: Focus on fundamentals and modern trends.
+
+------------------------------------------------------------
+Event: AlgoAuction
+Time: 3 Hours
+Venue: Activity Space
+Expected Participation: 200+
+Judging Criteria: Leaderboard
+Description: Auction-based algorithm and DS selection before solving challenges.
+Impact:
+- Theme Relevance: Economic strategies with algorithmic mastery.
+- On Students: Reinforces coding discipline and optimization.
+- On NIRF: Technical Index showcases strong CS core.
+
+------------------------------------------------------------
+Event: TechZibition (with Experivista)
+Time: 6-8 Hours
+Venue: DOSA Lawns
+Expected Participation: 500+
+Judging Criteria: Director, DOAA, DOSA, Faculty
+Description: Cross-disciplinary project showcase by students, demo-rich and interactive.
+Impact:
+- Theme Relevance: Exposes cutting-edge innovation.
+- On Students: Builds technical communication and presentation.
+- On NIRF: Champions applied R&D culture.
+
+------------------------------------------------------------
+Event: The Prompt Arena
+Time: 15 Minutes
+Venue: Street
+Expected Participation: 10+ at once
+Judging Criteria: Replication quality
+Description: AI prompt creation competition across creative categories.
+Impact:
+- Theme Relevance: Fuses creativity with AI tools.
+- On Students: Enhances prompt engineering literacy.
+- On NIRF: Promotes future-ready innovation culture.
+
+------------------------------------------------------------
+Event: The "Electric Fence" Game
+Time: 2 Minutes per participant
+Venue: Street
+Expected Participation: 50+
+Judging Criteria: Win if no buzzer triggered
+Description: Wire loop precision challenge teaching fine control over circuits.
+Impact:
+- Theme Relevance: Explains electronics fundamentals.
+- On Students: Improves precision motor skills.
+- On NIRF: Engages with fun low-stakes STEM.
+
+------------------------------------------------------------
+Event: VR/AR Experience Booths
+Time: 5 Minutes per participant
+Venue: Street
+Expected Participation: 5+ at once
+Judging Criteria: Fun Event
+Description: Immersive AR/VR demos including games and 3D models.
+Impact:
+- Theme Relevance: Represents emerging immersive technologies.
+- On Students: Hands-on exploration inspiring career interest.
+- On NIRF: Showcases futuristic tech adoption.
+
+------------------------------------------------------------
+Event: Tech-Themed Photo Booths
+Time: 2 Minutes per participant
+Venue: Street
+Expected Participation: 3+ at once
+Judging Criteria: Fun Event
+Description: AR filters/green screen creative booths for sci-fi avatars and more.
+Impact:
+- Theme Relevance: Links digital media with technology.
+- On Students: Boosts social engagement.
+- On NIRF: Enhances social inclusivity.
+
+------------------------------------------------------------
+Event: Egg Drop Challenge
+Time: 30 Minutes
+Venue: Street
+Expected Participation: 50+
+Judging Criteria: Egg survival, creativity, weight
+Description: STEM-driven challenge to protect eggs during 30–40 ft drop with limited materials.
+Impact:
+- Theme Relevance: Physics and design thinking emphasis.
+- On Students: Encourages problem-solving and creative builds.
+- On NIRF: Enhances outreach and inclusivity scores.
+
+------------------------------------------------------------
+Event: Interactive Digital Art Wall
+Time: 3 Minutes per participant
+Venue: Street
+Expected Participation: 3+ at once
+Judging Criteria: Fun Event
+Description: Motion-triggered art displayed via LEDs/projectors.
+Impact:
+- Theme Relevance: Combines creative media and technology.
+- On Students: Encourages art-tech collaborations.
+- On NIRF: Fosters interdisciplinary cooperation.
+
+------------------------------------------------------------
+Event: LED Throwies Station
+Time: 10 Minutes per participant
+Venue: Street
+Expected Participation: 5+ at once
+Judging Criteria: Fun Event
+Description: DIY LED circuits attached to coin batteries and magnets to decorate metallic surfaces.
+Impact:
+- Theme Relevance: Simple DIY electronics.
+- On Students: Improves hands-on circuit familiarity.
+- On NIRF: Supports outreach and STEM culture.
+
+------------------------------------------------------------
+Event: Retro Gaming Arcade
+Time: 10 Minutes per participant
+Venue: Street
+Expected Participation: 5+ at once
+Judging Criteria: Fun Event
+Description: Arcade nostalgia with emulated classics like Pac-Man, Tetris, Mario Bros., and Street Fighter.
+Impact:
+- Theme Relevance: Cultural and gaming evolution.
+- On Students: Builds social bonds, interest in design.
+- On NIRF: Enhances inclusivity and engagement.
