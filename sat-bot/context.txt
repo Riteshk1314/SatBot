@@ -1,216 +1,144 @@
+
 SATURNALIA'25
-
 CULTURAL EVENTS
-
 - Ruhaniyat
   Ruhaniyat is the premier platform for solo musical artists to display their talent and passion. This event celebrates the art of vocal performance, welcoming singers from diverse genres—from heartfelt ballads and energetic rock anthems to intricate classical compositions and contemporary pop tracks. Participants get a rare opportunity to gain widespread recognition and compete for exciting prizes. Perform live in front of an enthusiastic audience, expressing your unique style and connecting deeply through your voice. More than a competition, Ruhaniyat is a celebration of dedication, artistic excellence, and a stepping stone for artists looking to elevate their musical journey.
-
 - Crescendo
   Crescendo is an electrifying musical contest for solo vocalists and select duets dedicated to showcasing talent in English singing. The competition provides a powerful platform for performers to display their skills across a broad spectrum of genres, from soulful ballads that resonate with the audience to dynamic, high-energy anthems that command the stage. Competitors are evaluated on vocal range, stage charisma, and storytelling ability. Crescendo celebrates musical expression and offers artists a chance to connect with a live audience and impress judges.
-
 - Battle of Bands
   A high-energy musical showdown where talented bands compete for glory, excitement, and applause. Bands deliver dynamic 5–10 minute live performances blending up to five different instruments, including one bass guitar. Each band showcases its unique style, teamwork, and stage presence, engaging the crowd and impressing judges with originality.
-
 - Production Wars
   The definitive stage form for music producers to showcase creative genius. Contestants unleash their skills in a live showcase of sonic creativity, manipulating genres, building tension, and dropping unforgettable moments. The competition tests technical skill and artistic vision as producers utilize beats, samples, and arrangements to create unique soundscapes.
-
 - Micdrop
   A pulse-pounding solo street battle where rappers and beatboxers face off in high-energy freestyle showdowns. Contestants compete head-to-head with inventive lyrics and jaw-dropping rhythms in an authentic street setting with a lively audience. The event highlights raw creativity, flow, technical mastery, and stage command.
-
 LITERARY CULTURAL EVENTS
-
 - Quizathon
   An electrifying competition that tests knowledge and quick thinking. Featuring two electrifying rounds—a lightning-fast preliminary and an intense final showdown—participants navigate a broad spectrum of questions, ranging from current affairs to captivating trivia across diverse topics. Open to both seasoned trivia enthusiasts and curious learners.
-
 - MUN (Model United Nations)
   An immersive educational event where students assume the roles of diplomats representing different countries to debate and find solutions for pressing global issues. Participants engage in research, public speaking, negotiation, and collaboration, fostering diplomacy, leadership skills, and international relations understanding.
-
 - Readathon
   A unique event celebrating the timeless joy and intellectual freedom that reading provides. Attendees select from a rich and diverse collection of books for uninterrupted literary exploration in a calm and inviting environment.
-
 - Mushaira
   A vibrant gathering where language comes alive through poetry, storytelling, and spoken word. Participants share performances that inspire, move, and connect audiences. The event honors timeless traditions and embraces contemporary styles.
-
 - Mundane Monologues
   A challenging on-the-spot solo performance competition redefining improvisational theatre. Performers receive randomly assigned everyday topics and deliver dramatic monologues embodying these subjects, testing quick thinking and creativity.
-
 DRAMATICS CULTURAL EVENTS
-
 - Parliamentary Debate
   A prestigious, competitive event that brings together teams nationwide for rigorous intellectual discourse following the Asian Parliamentary format. Debates emphasize structured speeches, logical reasoning, clarity, and respectful interaction.
-
 - Nukkad Natak
   Saturnalia's annual street play competition providing a powerful platform for teams to perform impactful theatre addressing social issues such as inequality, climate change, and LGBTQ+ rights. The event celebrates bold expression and emotional connection with live audiences.
-
 ARTS CULTURAL EVENTS
-
 - Canvas Under Canopy
   A captivating two-round painting competition where artists express creativity through art, combining live artistic execution and cultural themes to produce masterpieces reflecting diverse perspectives.
-
 - Product Marketing Design
   A dynamic competition where teams design complete marketing campaigns for unique products using tools like Adobe Photoshop, Illustrator, or Canva. Participants combine artistic skill with strategic marketing in a fast-paced, collaborative environment.
-
 - Royal Fashion Design
   Teams of up to three students create majestic fashion pieces inspired by palaces and timeless regality. The event promotes innovation, artistic expression, and teamwork, culminating in a stunning display of design talent.
-
 - Canvas Relay
   An innovative art competition showcasing collaborative creativity through a relay format. Multiple teams sequentially work on the same canvas, each adding unique styles and techniques, resulting in a unified masterpiece.
-
 - Mood Board Magic
   An expressive painting competition challenging participants to visually interpret specific moods or emotions using any medium. It encourages color theory exploration and creative communication of complex ideas non-verbally.
-
 PHOTOGRAPHY CULTURAL EVENTS
-
 - Photowalk
   Participants explore the campus through their lenses during a 3–5 hour street photography tour, focusing on candid moments, stunning architecture, and vibrant campus life to hone skills guided by professionals.
-
 - Movie Poster Design
   A competition inviting participants to craft visually striking posters capturing the essence of films—real, fictional, or themed. It challenges storytelling, graphic design, composition, color, typography, and symbolism skills.
-
 - Through The Lens
   A college photography competition challenging students to capture powerful thematic images that showcase technical skill and artistic perspective, promoting creativity and emotional storytelling through photography.
-
 - Movie Making Competition
   A 50-hour intensive challenge where teams conceptualize, script, shoot, and edit a short film from start to finish. It tests creativity, teamwork, and technical proficiency under tight deadlines.
-
 INFORMAL EVENTS
-
 - SAT Walk
   The flagship fashion and cultural event marking the 50th edition of Saturnalia with the theme The Embergence Legacy. It features fashion-centric theatrical showcases exploring a wide range of themes from social issues to mythology.
-
 - Mr. & Ms. SAT
   A distinguished talent and personality contest for college students celebrating charm, intellect, creativity, and confidence. Contestants participate in rounds testing talent, personality, spontaneity, and leadership qualities.
-
 - Chalk the Light
   An innovative open-air chalk painting competition inviting students to transform the campus into a vibrant gallery interpreting the theme Embergence through light, energy, hope, and social messages.
-
 - Torque Arena
   An exhilarating automobile and drift showcase featuring exotic cars, custom modifications, and live drifting demonstrations. It celebrates energy, brilliance, and innovation in automotive design and performance.
-
 - Street Fest
   A vibrant two-day carnival transforming the campus into a lively fairground with food stalls, boutiques, handcrafted goods, games, and a flea market, illuminated by dazzling lights and cultural installations.
-
 - Celestia Carnival
   A beloved highlight featuring rides, engaging game booths, enticing snack carts, and mesmerizing glowing installations. It transforms the campus into a joyful haven of music, laughter, and radiant lights.
-
 - Swaranjali Embergence Spectacle
   A captivating light and sound show combining projection mapping, narration, music, and lighting effects to chronicle the institution's remarkable journey since the 1970s, celebrating Saturnalia's enduring legacy.
-
 - Drone Show
   A visually captivating aerial display featuring a coordinated fleet of LED-equipped drones performing intricate and dynamic patterns over the festival grounds, blending advanced technology with creative artistry.
-
 - Sky Circuit - RC Fixed Wing Build & Fly Challenge
   A real-time competition where teams design and build lightweight foam-based planes to navigate an aerial obstacle course within a 10-minute timeframe, controlled via Wi-Fi through mobile apps.
-
 TECHNICAL EVENTS
-
 - Mirage
   An interactive Augmented Reality (AR) treasure hunt that transforms the campus into a digital trail of clues, puzzles, and challenges, immersing participants in a unique problem-solving journey.
-
 - SatHack
   A fast-paced hackathon encouraging teams to ideate, design, and develop working technology prototypes within a constrained timeframe. It fosters innovation, creativity, technical expertise, and problem solving.
-
 - Syrinx
   An exhilarating online treasure hunt set on beautiful 2D maps inspired by the TIET campus. Participants solve puzzles racing against time to unlock secrets and reach the final prize.
-
 - RoboWars
   A high-intensity competition where student-built robots engage in electrifying battles testing innovation, engineering, and strategic design. Robots compete in agility, precision, and resilience.
-
 - Electrosprint
   A fast-paced relay competition focused on circuit design and electronics fundamentals. Teams collaborate through stages requiring precision, problem solving, and technical know-how.
-
 - HackTheBox
   A challenging ethical hacking competition immersing participants in cybersecurity by exploiting vulnerabilities on deliberately vulnerable virtual machines. It tests expertise, quick thinking, and persistence.
-
 - Kaggle Wars
   A competitive machine learning challenge where teams design, train, and refine predictive models from curated datasets within limited time. Success depends on balancing accuracy, efficiency, and creativity.
-
 - Maze Solver
   A test of innovation and problem solving where participants design autonomous bots or algorithms to navigate complex mazes quickly and accurately, pushing AI and robotics boundaries.
-
 - MathChrono
   A unique time-travel puzzle game involving solving significant theorems through stepwise milestones, blending storytelling with mathematical discovery.
-
 - Feature Creep Chaos
   Simulates the unpredictability of software development with teams building basic calculators disrupted by audience-suggested unexpected feature requests every 20 minutes, testing adaptability and focus.
-
 - VibeFix
   A coding challenge emphasizing problem-solving and adaptability under pressure, where participants debug sabotaged code prompts rapidly to restore functionality.
-
 - AlgoAuction
   A strategy-driven coding event combining auctions and timed programming challenges requiring participants to manage virtual budgets and select tools wisely to solve problems.
-
 - Techzibition (with Experivista)
   A cross-disciplinary tech showcase featuring innovative student projects across engineering, design, and innovation fields. It fosters interaction between creators and attendees.
-
 - The Prompt Arena
   A dynamic AI prompt crafting competition where teams generate creative AI prompts to produce images, music, memes, and more under time constraints, testing creativity and technical skills.
-
 - "The Electric Fence" Game
   A classic test of steadiness and focus where participants guide a metal loop along a twisting copper wire without making contact, aimed at improving concentration and precision.
-
 - CSS Battles
   A fast-paced visual coding challenge where participants replicate intricate UI designs as accurately and efficiently as possible using CSS, testing technical proficiency and creativity.
-
 - CodeQuest
   A fast-paced challenge testing participants' ability to identify programming languages, frameworks, IDEs, and tools from clues like code snippets and configuration files.
-
 - Game Theory
   Participants write code to program autonomous bots for strategic, adaptive battles inspired by concepts like the Prisoner's Dilemma, blending programming skills with game theory insights.
-
 - Flap
   A mathematical gaming event inspired by Flappy Bird, where participants design functions controlling a bird navigating through challenging levels mathematically.
-
 - AlgoArenas
   An intense logic and algorithm battlefield challenging participants to solve complex problems under time pressure, testing foundational knowledge and advanced problem solving.
-
 - Sound Stage
   A vibrant music competition where participants craft and perform dynamic 3–5-minute mixes using custom sounds, popular tracks, and inventive remixes, emphasizing creativity and audience engagement.
-
 - CSS Battles
   A visually-driven, high-speed contest for coders to showcase their CSS skills by replicating UI designs with clean, maintainable code.
-
 BRANCH EVENTS
-
 Civil Branch:
 - Construct: Bridge Design Challenge
   Design and build model bridges testing structural strength, creativity, and teamwork, simulating real civil engineering problems.
-
 - Civil Hackathon
   Teams use CAD/CAM tools like AutoCAD, Revit, and Civil 3D to design innovative 2D and 3D structures, sparking creativity and technical skills.
-
 Biotech & Chemical Branch:
 - Bioinformatics Quiz
   A competition testing knowledge of DNA/RNA sequencing, protein structure prediction, gene expression, and computational biology tools.
-
 Electronics & Electrical Branch:
 - Arduino Programming Workshop and Competition
   Learn Arduino basics, electronic circuits, and sensor interfacing through theoretical knowledge and hands-on experience.
-
 - Control Systems Workshop
   Participants explore control system theory and apply concepts in practical exercises involving feedback loops and stability.
-
 Mechanical & Mechatronics Branch:
 - 3D Printing Workshop
   Learn about 3D printing technology, design models, and create physical prototypes with hands-on experience.
-
 - Automobile Component Design
   Design innovative automobile components focusing on aerodynamics, efficiency, safety, and aesthetics with presentations on unique aspects.
-
 UNPITCH-IT EVENT
 Previously named Court of Oddities, Unpitch-It is a creative competition where teams pitch imaginative and unconventional uses for everyday objects before a live audience. It nurtures creativity, humor, and storytelling through skits and presentations.
-
 Portfolio Wars
 Teams manage stock market portfolios using simulated data, navigating financial decision-making scenarios like funding expeditions or sustainability projects to develop financial acumen and teamwork.
-
 Corporate Hunger Games
 A simulation competition where teams make strategic decisions on finances, product launches, and trade resolutions to achieve key performance indicators in a competitive TECHNICAL landscape.
-
 Product Pulse
 A hands-on competition for aspiring product managers and entrepreneurs focusing on product lifecycle navigation, market research, and startup ideation culminating in expert review of presentations and pitches.
-
 Black Box Bidding
 Inspired by Storage Wars, teams bid on mysterious boxes using limited information, employing analytical and strategic skills to outsmart opponents in a high-stakes psychological game.
-
 Startup Spark Pitch
 Teams present innovative TECHNICAL ideas to industry experts for mock funding, emphasizing entrepreneurship, strategic thinking, and collaboration.
