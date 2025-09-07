@@ -191,7 +191,7 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 	if resp.StatusCode != http.StatusOK {
 		log.Printf("GROQ API error: Status %d, Body: %s", resp.StatusCode, string(body))
 		w.WriteHeader(http.StatusInternalServerError)
-		json.NewEncoder(w).Encode(ErrorResponse{Error: "GROQ API returned an error"})
+		json.NewEncoder(w).Encode(ErrorResponse{Error: "Limit reached for free tier"})
 		return
 	}
 	var chatCompletion ChatCompletion
@@ -202,7 +202,7 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	if len(chatCompletion.Choices) == 0 {
 		w.WriteHeader(http.StatusInternalServerError)
-		json.NewEncoder(w).Encode(ErrorResponse{Error: "No response from GROQ API"})
+		json.NewEncoder(w).Encode(ErrorResponse{Error: "Limit reached for free tier"})
 		return
 	}
 	endTime := time.Now()
