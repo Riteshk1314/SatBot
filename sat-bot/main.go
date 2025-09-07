@@ -39,6 +39,7 @@ type ChatResponse struct {
 	Response     string `json:"response"`
 	ResponseTime string `json:"response_time"`
 }
+
 type ErrorResponse struct {
 	Error string `json:"error"`
 }
@@ -105,11 +106,19 @@ func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
 
 func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
+
+	// try
+	if r.Method == http.MethodOptions {
+		w.WriteHeader(http.StatusOK)
+		return
+	}
+
 	if r.Method != http.MethodPost {
 		w.WriteHeader(http.StatusMethodNotAllowed)
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Method not allowed"})
 		return
 	}
+
 	var msg Message
 	decoder := json.NewDecoder(r.Body)
 	decoder.DisallowUnknownFields()
@@ -118,17 +127,20 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Invalid request format"})
 		return
 	}
+
 	if strings.TrimSpace(msg.Message) == "" {
 		w.WriteHeader(http.StatusBadRequest)
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Message cannot be empty"})
 		return
 	}
+
 	apiKey := os.Getenv("GROQ_API_KEY")
 	if apiKey == "" {
 		w.WriteHeader(http.StatusInternalServerError)
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "GROQ API key not configured"})
 		return
 	}
+
 	groqPrompt := fmt.Sprintf("User Query: %s\n\nAnswer:", msg.Message)
 	apiURL := "https://api.groq.com/openai/v1/chat/completions"
 	requestData := map[string]interface{}{
@@ -156,20 +168,24 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 		"temperature": 0.7,
 		"max_tokens":  500,
 	}
+
 	jsonData, err := json.Marshal(requestData)
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Failed to prepare request"})
 		return
 	}
+
 	req, err := http.NewRequest("POST", apiURL, bytes.NewBuffer(jsonData))
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Failed to create request"})
 		return
 	}
+
 	req.Header.Set("Authorization", fmt.Sprintf("Bearer %s", apiKey))
 	req.Header.Set("Content-Type", "application/json")
+
 	startTime := time.Now()
 	client := &http.Client{
 		Timeout: 30 * time.Second,
@@ -181,6 +197,7 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	defer resp.Body.Close()
+
 	reader := io.LimitReader(resp.Body, 10*1024*1024)
 	body, err := io.ReadAll(reader)
 	if err != nil {
@@ -188,28 +205,34 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Failed to read response"})
 		return
 	}
+
 	if resp.StatusCode != http.StatusOK {
 		log.Printf("GROQ API error: Status %d, Body: %s", resp.StatusCode, string(body))
 		w.WriteHeader(http.StatusInternalServerError)
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Limit reached for free tier"})
 		return
 	}
+
 	var chatCompletion ChatCompletion
 	if err := json.Unmarshal(body, &chatCompletion); err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Failed to parse response"})
 		return
 	}
+
 	if len(chatCompletion.Choices) == 0 {
 		w.WriteHeader(http.StatusInternalServerError)
 		json.NewEncoder(w).Encode(ErrorResponse{Error: "Limit reached for free tier"})
 		return
 	}
+
 	endTime := time.Now()
 	responseTime := endTime.Sub(startTime)
+
 	go func() {
 		log.Printf("Chat interaction - Question: %s, Response Time: %.4f seconds", msg.Message, responseTime.Seconds())
 	}()
+
 	response := ChatResponse{
 		Response:     chatCompletion.Choices[0].Message.Content,
 		ResponseTime: fmt.Sprintf("%.4f seconds", responseTime.Seconds()),
@@ -234,13 +257,16 @@ func withCORS(h http.Handler) http.Handler {
 func main() {
 	loadEnv()
 	loadContext()
+
 	r := mux.NewRouter()
 	r.HandleFunc("/health", healthCheckHandler).Methods("GET")
-	r.HandleFunc("/chat", chatCompletionHandler).Methods("POST")
+	r.HandleFunc("/chat", chatCompletionHandler).Methods(http.MethodPost, http.MethodOptions)
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
 	}
+
 	server := &http.Server{
 		Addr:         ":" + port,
 		Handler:      withCORS(r),
@@ -248,9 +274,11 @@ func main() {
 		WriteTimeout: 15 * time.Second,
 		IdleTimeout:  60 * time.Second,
 	}
+
 	log.Printf("Server starting on port %s", port)
 	log.Printf("Health check endpoint: http://localhost:%s/health", port)
 	log.Printf("Chat completion endpoint: http://localhost:%s/chat", port)
+
 	if err := server.ListenAndServe(); err != nil {
 		log.Fatal("Server failed to start:", err)
 	}
