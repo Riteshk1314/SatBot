@@ -93,43 +93,43 @@ func loadContext() {
 	log.Println("Context loaded successfully from context.txt")
 }
 
-// Centralized CORS middleware
 func corsMiddleware(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		origin := r.Header.Get("Origin")
-		
-		// List of allowed origins
-		allowedOrigins := []string{
-			"http://localhost:3000",
-			"https://teamsid.saturnalia.in",
-		}
-		
-		// Check if the origin is in the allowed list
-		isAllowed := false
-		for _, allowedOrigin := range allowedOrigins {
-			if origin == allowedOrigin {
-				isAllowed = true
-				break
-			}
-		}
-		
-		// Set CORS headers
-		if isAllowed {
-			w.Header().Set("Access-Control-Allow-Origin", origin)
-		}
-		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-		w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
-		w.Header().Set("Access-Control-Max-Age", "86400")
-		w.Header().Set("Access-Control-Allow-Credentials", "true")
+    return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+        origin := r.Header.Get("Origin")
 
-		// Handle preflight requests
-		if r.Method == http.MethodOptions {
-			w.WriteHeader(http.StatusNoContent)
-			return
-		}
+        // List of allowed origins
+        allowedOrigins := []string{
+            "http://localhost:3000",
+            "https://teamsid.saturnalia.in",
+        }
 
-		next.ServeHTTP(w, r)
-	})
+        // Check if the origin is in the allowed list
+        isAllowed := false
+        for _, allowedOrigin := range allowedOrigins {
+            if origin == allowedOrigin {
+                isAllowed = true
+                break
+            }
+        }
+
+        // Set CORS headers only if the origin is allowed
+        if isAllowed {
+            w.Header().Set("Access-Control-Allow-Origin", origin)
+        }
+
+        w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+        w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
+        w.Header().Set("Access-Control-Max-Age", "86400")
+        w.Header().Set("Access-Control-Allow-Credentials", "true")
+
+        // Handle preflight requests
+        if r.Method == http.MethodOptions {
+            w.WriteHeader(http.StatusNoContent)
+            return
+        }
+
+        next.ServeHTTP(w, r)
+    })
 }
 
 func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
