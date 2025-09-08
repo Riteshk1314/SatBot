@@ -94,6 +94,9 @@ func loadContext() {
 }
 
 func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
 	w.Header().Set("Content-Type", "application/json")
 	response := HealthResponse{
 		Status:    "healthy",
@@ -105,9 +108,11 @@ func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
 	w.Header().Set("Content-Type", "application/json")
 
-	// try
 	if r.Method == http.MethodOptions {
 		w.WriteHeader(http.StatusOK)
 		return
