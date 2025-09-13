@@ -100,7 +100,7 @@ func corsMiddleware(next http.Handler) http.Handler {
 		// List of allowed origins
 		allowedOrigins := []string{
 			"http://localhost:3000",
-			"https://teamsid.saturnalia.in",
+			"https://saturnalia.in",
 		}
 
 		// Check if the origin is in the allowed list
