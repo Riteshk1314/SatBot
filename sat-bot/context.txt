@@ -142,3 +142,4 @@ Black Box Bidding
 Inspired by Storage Wars, teams bid on mysterious boxes using limited information, employing analytical and strategic skills to outsmart opponents in a high-stakes psychological game.
 Startup Spark Pitch
 Teams present innovative TECHNICAL ideas to industry experts for mock funding, emphasizing entrepreneurship, strategic thinking, and collaboration.
+- The Saturnalia is happening from 14th to 16th November 2025. 

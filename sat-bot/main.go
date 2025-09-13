@@ -94,47 +94,47 @@ func loadContext() {
 }
 
 func corsMiddleware(next http.Handler) http.Handler {
-    return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-        origin := r.Header.Get("Origin")
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		origin := r.Header.Get("Origin")
 
-        // List of allowed origins
-        allowedOrigins := []string{
-            "http://localhost:3000",
-            "https://teamsid.saturnalia.in",
-        }
+		// List of allowed origins
+		allowedOrigins := []string{
+			"http://localhost:3000",
+			"https://teamsid.saturnalia.in",
+		}
 
-        // Check if the origin is in the allowed list
-        isAllowed := false
-        for _, allowedOrigin := range allowedOrigins {
-            if origin == allowedOrigin {
-                isAllowed = true
-                break
-            }
-        }
+		// Check if the origin is in the allowed list
+		isAllowed := false
+		for _, allowedOrigin := range allowedOrigins {
+			if origin == allowedOrigin {
+				isAllowed = true
+				break
+			}
+		}
 
-        // Set CORS headers only if the origin is allowed
-        if isAllowed {
-            w.Header().Set("Access-Control-Allow-Origin", origin)
-        }
+		// Set CORS headers only if the origin is allowed
+		if isAllowed {
+			w.Header().Set("Access-Control-Allow-Origin", origin)
+		}
 
-        w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-        w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
-        w.Header().Set("Access-Control-Max-Age", "86400")
-        w.Header().Set("Access-Control-Allow-Credentials", "true")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
+		w.Header().Set("Access-Control-Max-Age", "86400")
+		w.Header().Set("Access-Control-Allow-Credentials", "true")
 
-        // Handle preflight requests
-        if r.Method == http.MethodOptions {
-            w.WriteHeader(http.StatusNoContent)
-            return
-        }
+		// Handle preflight requests
+		if r.Method == http.MethodOptions {
+			w.WriteHeader(http.StatusNoContent)
+			return
+		}
 
-        next.ServeHTTP(w, r)
-    })
+		next.ServeHTTP(w, r)
+	})
 }
 
 func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	
+
 	response := HealthResponse{
 		Status:    "healthy",
 		Timestamp: time.Now().UTC().Format(time.RFC3339),
@@ -190,6 +190,7 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 - Keep responses concise but informative
 - If asked about topics outside the context, politely explain that you can only discuss Saturnalia Centre related matters
 - Always maintain a helpful and positive attitude
+- The Saturnalia is happening from 14th to 16th November 2025. 
 
 `, Context),
 			},
@@ -280,9 +281,9 @@ func main() {
 	loadContext()
 
 	r := mux.NewRouter()
-	
+
 	r.Use(corsMiddleware)
-	
+
 	r.HandleFunc("/health", healthCheckHandler).Methods("GET", "OPTIONS")
 	r.HandleFunc("/chat", chatCompletionHandler).Methods("POST", "OPTIONS")
 
