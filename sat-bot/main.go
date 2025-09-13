@@ -191,6 +191,7 @@ func chatCompletionHandler(w http.ResponseWriter, r *http.Request) {
 - If asked about topics outside the context, politely explain that you can only discuss Saturnalia Centre related matters
 - Always maintain a helpful and positive attitude
 - The Saturnalia is happening from 14th to 16th November 2025. 
+- The saturnalia/ SAT is being conducted from 14th to 16th Novemeber 2025. 
 
 `, Context),
 			},
